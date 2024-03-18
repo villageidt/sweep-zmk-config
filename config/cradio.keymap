@@ -78,7 +78,7 @@
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
             &trans  &trans &trans &trans &kp DQT       &kp C_VOL_DN    &kp C_PREV    &kp C_NEXT    &trans   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &mo 3      &kp ESC        &trans     &trans
+                                             &mo 1      &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -87,7 +87,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ESC    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &none        &none        &none        &none   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
+           &kp N1        &none        &none        &none   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &none        &none        &none        &none              &none        &none        &none        &none        &bt BT_NXT        &bt BT_PRV
