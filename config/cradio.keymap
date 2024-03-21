@@ -81,7 +81,7 @@
             &kp ESC &kp EQUAL &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH      &kp C_VOL_UP    &kp C_PLAY_PAUSE    &kp F3    &kp F11   &kp F12
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &trans  &trans &trans &trans &kp DQT       &kp C_VOL_DN    &kp C_PREV    &kp C_NEXT    &trans   &trans
+            &trans  &trans &trans &trans &kp DQT       &kp C_VOL_DN    &kp C_PREV    &kp C_NEXT    &trans   &kp DEL
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &mo 1      &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
