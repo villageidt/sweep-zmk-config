@@ -22,11 +22,9 @@ include:
     shield: cradio_left
   - board: nice_nano_v2
     shield: cradio_right
-  include:
   - board: nrf52840dk_nrf52840
     shield: cradio_left
   - board: nrf52840dk_nrf52840
     shield: cradio_right
-  
   - board: nice_nano_v2
     shield: settings_reset
